@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/call" />
+
+    <Button
+        android:id="@+id/btn_phone1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/phone1"
+        android:visibility="gone" >
+    </Button>
+
+    <TextView
+        android:id="@+id/label_phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone1"
+        android:visibility="gone" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_phone2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/phone2"
+        android:visibility="gone" >
+    </Button>
+
+    <TextView
+        android:id="@+id/label_phone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone2"
+        android:visibility="gone" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_phone3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/phone3"
+        android:visibility="gone" >
+    </Button>
+
+    <TextView
+        android:id="@+id/label_phone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone3"
+        android:visibility="gone" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/label_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/call" >
+    </TextView>
+
+</RelativeLayout>

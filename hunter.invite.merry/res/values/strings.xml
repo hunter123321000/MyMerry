@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="no_service">敬請期待!</string>
+    <string name="app_name">一同來見證『陳宏利與黃婉茹的奇蹟』</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Call me -->
+    <string name="phone1">亞太電信</string>
+    <string name="phone2">我的家</string>
+    <string name="phone3">遠傳電信</string>
+    <string name="call">若貴客您迷路了，或對於參加宴會有任何疑問。請由上方三種聯絡方式(點選亞太/遠傳/直播我家)與我聯絡!</string>
+    <!-- Introduction -->
+    <string name="introd">聖旨\n\n  奉天承運\n\n    皇帝詔曰\n\n風度翩翩的陳大帥哥宏利，氣宇非凡、眉清目秀、為陳家中最具才情之犬子。\n\n令 賜婚予黃家婉茹為妻，望兩人白頭，舉業齊眉。\n\n擇定民國102年12月21日午時  大宴賓客，\n\n「無故遲到、未到者，屆時提頭來見！」\n\n欽此!</string>
+
+    <string-array name="binggo">
+        <item>1111100000000000000000000</item>
+        <item>0000011111000000000000000</item>
+        <item>0000000000111110000000000</item>
+        <item>0000000000000001111100000</item>
+        <item>0000000000000000000011111</item>
+        <item>1000010000100001000010000</item>
+        <item>0100001000010000100001000</item>
+        <item>0010000100001000010000100</item>
+        <item>0001000010000100001000010</item>
+        <item>0000100001000010000100001</item>
+        <item>1000001000001000001000001</item>
+        <item>0000100010001000100010000</item>
+    </string-array>
+    <!-- BingGo Game -->
+    <string name="game_title">集滿一條線即BingGo~請至舞台前換取驚奇贈品一份!</string>
+    <!-- Take Pic and Upload Pic -->
+    <string name="upload_pic">傳遞祝福</string>
+    <string name="edit_hint">輸入祝福新人的話語</string>
+    <!-- Show Pic -->
+    <!-- GCM -->
+    <string name="lb_notification">[通知訊息]\r\n</string>
+    <string name="lb_descript1">說明 第</string>
+    <string name="lb_descript2">頁</string>
+    <string name="et_inputname">您的暱稱</string>
+    <string name="et_inputemail">電子信箱</string>
+    <string name="viewpage1_descript">首先請您透過上述的Icon內的表單填寫，餐與宴會之調查表。</string>
+    <string name="viewpage2_descript">若對於宴會地點有任何疑問，您可透過線上的Google Map引導您唷。</string>
+    <string name="viewpage3_descript">若對於此邀請有任何疑問可透過快速撥號與我連繫唷!</string>
+    <string name="viewpage4_descript">將你在宴會場所當日拍攝的相片即時顯示在宴會場所的投影簿幕上。您給於新人的祝福話語將永遠保留(沒有移除此APP)</string>
+    <string name="viewpage5_descript">最後請輸入個人的暱稱(或名稱)，接著開始使用此APP!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">此APP將在宴會前自動通知您儘早到場。感謝您的使用!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="btn_next">確認</string>
+    <string name="btn_skip">略過</string>
+
+</resources>

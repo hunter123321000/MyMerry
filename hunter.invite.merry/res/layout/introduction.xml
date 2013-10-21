@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/introd2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_introd"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:scaleType="fitXY"
+        android:src="@drawable/introd1" />
+
+    <HorizontalScrollView
+        android:id="@+id/sv"
+         android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.hunter123321000.merry.TextViewVertical
+            android:id="@+id/label_introd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"           
+            textSize="30"
+            android:background="@null" />
+    </HorizontalScrollView>
+
+</LinearLayout>

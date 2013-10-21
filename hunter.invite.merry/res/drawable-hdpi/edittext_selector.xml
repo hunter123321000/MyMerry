@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 選中時效果 -->
+    <item android:drawable="@drawable/edittext_select" android:state_focused="true"/>
+    <!-- disable效果 windows焦點在前時  注意寫法 -->
+    <item android:drawable="@drawable/edittext_disable" android:state_enabled="false" android:state_window_focused="true"/>
+    <!-- 默認時效果 -->
+    <item android:drawable="@drawable/edittext"/>
+
+</selector>

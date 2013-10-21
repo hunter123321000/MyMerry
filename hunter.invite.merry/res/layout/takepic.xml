@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_takepic_bg"
+        android:text="@string/upload_pic" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/et"
+        style="@style/edittext_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_upload"
+        android:hint="@string/edit_hint" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/camer_icon" />
+
+</RelativeLayout>
